@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8925F29B1BF9B58700098592 /* FourLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8925F29A1BF9B58700098592 /* FourLines.swift */; };
 		8967A04F1BF83EBA002C080A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8967A04E1BF83EBA002C080A /* AppDelegate.swift */; };
 		8967A0511BF83EBA002C080A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8967A0501BF83EBA002C080A /* ViewController.swift */; };
 		8967A0541BF83EBA002C080A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8967A0521BF83EBA002C080A /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8925F29A1BF9B58700098592 /* FourLines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourLines.swift; sourceTree = "<group>"; };
 		8967A04B1BF83EBA002C080A /* ios-persistence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-persistence.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8967A04E1BF83EBA002C080A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8967A0501BF83EBA002C080A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				8967A0551BF83EBA002C080A /* Assets.xcassets */,
 				8967A0571BF83EBA002C080A /* LaunchScreen.storyboard */,
 				8967A05A1BF83EBA002C080A /* Info.plist */,
+				8925F29A1BF9B58700098592 /* FourLines.swift */,
 			);
 			path = "ios-persistence";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8967A0511BF83EBA002C080A /* ViewController.swift in Sources */,
+				8925F29B1BF9B58700098592 /* FourLines.swift in Sources */,
 				8967A04F1BF83EBA002C080A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +492,7 @@
 				8967A0751BF83EBA002C080A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8967A0761BF83EBA002C080A /* Build configuration list for PBXNativeTarget "ios-persistenceTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				8967A0781BF83EBA002C080A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8967A0791BF83EBA002C080A /* Build configuration list for PBXNativeTarget "ios-persistenceUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				8967A07B1BF83EBA002C080A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
